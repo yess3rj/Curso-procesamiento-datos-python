@@ -23,8 +23,7 @@ Vayamos a un primer ejemplo para entender su funcionamiento.
 
 > Lo más importante de esta sección es que los alumnos entiendan bien el `operador de indexación`, ya que es muy similar al que se usa en `numpy` y en `pandas`.
 
-[**`Ejemplo 1`**](Ejemplo-01/listas.ipynb)
-[**`Reto 1`**](Reto-01/listas.ipynb)
+[**`Ejemplo y Reto 1`**](Ejemplo-01/listas.ipynb)
 
 ---
 
@@ -39,8 +38,7 @@ Veámoslos en acción.
 
 > Aunque los métodos `append` y `pop` pocas veces son usados profesionalmente, es importante que los alumnos entiendan la noción de modificación de estructuras de datos, cómo se pueden agregar y eliminar elementos y los demás elementos se mantienen, aunque con diferente índice.
 
-[**`Ejemplo 2`**](Ejemplo-02/modificando_listas.ipynb)
-[**`Reto 2`**](Reto-02/modificando_listas.ipynb)
+[**`Ejemplo y Reto 2`**](Ejemplo-02/modificando_listas.ipynb)
 
 ---
 
@@ -52,8 +50,7 @@ Veamos cómo crear y acceder diccionarios.
 
 > Los diccionarios sobre todo me parecen valiosos por su similitud al formato JSON y porque son ideales para representar filas (muestras) en una tabla (el nombre de columna como llave y el valor de la celda como el valor de la llave). También es buena idea hablar sobre la idea del mappeo, cómo es que podemos crear pares de información que representan "lo mismo" pero visto desde diferentes perspectivas o a diferentes niveles de profundidad.
 
-[**`Ejemplo 3`**](Ejemplo-03/diccionarios.ipynb)
-[**`Reto 3`**](Reto-03/diccionarios.ipynb)
+[**`Ejemplo y Reto 3`**](Ejemplo-03/diccionarios.ipynb)
 
 ---
 
@@ -69,8 +66,7 @@ Vayamos a un ejemplo para ver cómo es que funcionan.
 
 >
 
-[**`Ejemplo 4`**](Ejemplo-04/modificando_diccionarios.ipynb)
-[**`Reto 4`**](Reto-04/modificando_diccionarios.ipynb)
+[**`Ejemplo y Reto 4`**](Ejemplo-04/modificando_diccionarios.ipynb)
 
 ---
 
@@ -93,8 +89,7 @@ Vamos a analizarlas paso a paso.
 
 > Desde el principio dejamos en claro que las funciones tienen parámetros y returns. A veces suelen enseñarse funciones sin parámetros y returns pero a mí me parece una mala idea porque es enseñar malas prácticas desde el inicio. Una función sin parámetros a) siempre hace lo mismo, o b) utiliza variables que no le son pasadas como parámetros. Una función sin return a) no genera nada que pueda ser utilizado en otras partes del programa, o b) está modificando variables fuera de la función (está teniendo efectos secundarios). Ambos comportamientos son peligrosos. Este módulo fue diseñado para incitar a los alumnos a programar funcionalmente. Por lo tanto, preferimos siempre funciones puras y enseñamos los principios generales adecuados para intentar evitar los efectos secundarios (sigue habiendo mutabilidad, pero eso es un problema un poco más complejo que decidí no tocar por ahora).
 
-[**`Ejemplo 5`**](Ejemplo-05/funciones.ipynb)
-[**`Reto 5`**](Reto-05/funciones.ipynb)
+[**`Ejemplo 5 y Reto`**](Ejemplo-05/funciones.ipynb)
 
 ---
 
