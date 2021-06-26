@@ -35,8 +35,7 @@ Veamos cómo funciona.
 
 > Es importante que los alumnos entiendan el concepto de aplicar una función "elemento por elemento" ("element-wise") a una `lista`, ya que en esencia eso es lo que sucede cuando aplicamos funciones universales o vectorizadas a un `numpy.array` o a una `Serie` de `pandas`.
 
-[**`Ejemplo 1`**](Ejemplo-01/map.ipynb)
-[**`Reto 1`**](Reto-01/map.ipynb)
+[**`Ejemplo y reto  1`**](Ejemplo-01/map.ipynb)
 
 ---
 
@@ -52,69 +51,23 @@ Veamos a detalle cómo funciona.
 
 > `filter` nos permitirá tener un primer acercamiento a los filtros, así como también a los `operadores lógicos` que aparecerán innumerables veces en los filtros de `pandas`.
 
-[**`Ejemplo 2`**](Ejemplo-02/filter.ipynb)
-[**`Reto 2`**](Reto-02/filter.ipynb)
+[**`Ejemplo y rato 2`**](Ejemplo-02/filter.ipynb)
 
 ---
 
-<ins>`and`</ins>
+<ins>`and`, `or` y `not`</ins>
 
-Hasta ahora sólo hemos utilizado `filter` con una función (una sola condición) para filtrar nuestra lista. ¿Pero qué pasa si queremos usar múltiples condiciones? Aquí es donde entran los `operadores lógicos`, que nos permiten unir dos `sentencias de comparación`. El primero es el operador `and`, que regresa `True` cuando las dos comparaciones que está uniendo regresan `True`, y `False` en todos los demás casos:
+Hasta ahora sólo hemos utilizado `filter` con una función (una sola condición) para filtrar nuestra lista. ¿Pero qué pasa si queremos usar múltiples condiciones? Aquí es donde entran los `operadores lógicos`, que nos permiten unir dos `sentencias de comparación`. Vayamos ahora a revisar algunos ejemplos.
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_16.png'></div>
-
-Vayamos ahora a algunos ejemplos.
-
->
-
-[**`Ejemplo 3`**](Ejemplo-03/and.ipynb)
-[**`Reto 3`**](Reto-03/and.ipynb)
-
----
-
-<ins>`or`</ins>
-
-`or` es muy parecido a `and`. También nos sirve para unir dos `sentencias de comparación` y obtener un nuevo resultado. La diferencia es que `or` regresa `True` cuando **una de las dos o ambas** comparaciones regresen `True`:
-
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_25.png'></div>
-
-Vayamos a algunos ejemplos.
-
->
-
-[**`Ejemplo 4`**](Ejemplo-04/or.ipynb)
-[**`Reto 4`**](Reto-04/or.ipynb)
-
----
-
-<ins>`not`</ins>
-
-`not` simplemente regresa el `booleano` opuesto al que recibe
-
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_29.png'></div>
-
-Vamos a ver cómo funciona
-
->
-
-[**`Ejemplo 5`**](Ejemplo-05/not.ipynb)
+[**`Ejemplo y reto 3`**](Ejemplo-03/and.ipynb)
 
 ---
 
 <ins>Funciones `lambda`</ins>
 
-Las funciones `lambda` son simplemente una manera distinta de declarar nuestras funciones. Tienen el mismo comportamiento de una función, pero una sintaxis y capacidades simplificadas. Se ven así:
+Las funciones `lambda` son simplemente una manera distinta de declarar nuestras funciones. Tienen el mismo comportamiento de una función, pero una sintaxis y capacidades simplificadas. Veámoslas en funcionamiento.
 
-```python
-lambda x: x * 100
-```
-
-Veámoslas en funcionamiento.
-
->
-
-[**`Ejemplo 6`**](Ejemplo-06/lambda.ipynb)
-[**`Reto 5`**](Reto-05/lambda.ipynb)
+[**`Ejemplo y reto 4`**](Ejemplo-04/lambda.ipynb)
 
 ---
 
